@@ -31,3 +31,8 @@
   5. Recuperer le contenus d'une branche
 
     git pull origin (nom de la branche)
+
+  6. lister les branches existantes
+
+    git fetch (pour recuperer le nom des branches en local)
+    git branch -a ( -a pour all /  ) 

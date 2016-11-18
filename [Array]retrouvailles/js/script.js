@@ -17,10 +17,10 @@ function init(infos){
     var parole = document.createElement("div");
   //implementation des elements à integrer :
     //Gestion de l'image
-    portrait.src= submit.picture;
+    portrait.src= infos.picture;
 
     //Affichage du nom
-    nom.innerHTML = submit.name;
+    nom.innerHTML = infos.name;
 
     //Reglage du bouton
     bouton.innerHTML = 'Retrouvailles';

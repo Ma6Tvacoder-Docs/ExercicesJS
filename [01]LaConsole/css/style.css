@@ -1,0 +1,20 @@
+.titre{
+  color: gray;
+  font-family: monospace;
+  font-size: x-small;
+  text-align: center;
+  margin-top: 45vh;
+}
+#title .maj, #next .maj {
+  color: darkslategray;
+  font-size: larger;
+}
+.maj:before{
+  content:"'";
+}
+.maj:after{
+  content:"'";
+}
+#next{
+  margin-top: 0;
+}

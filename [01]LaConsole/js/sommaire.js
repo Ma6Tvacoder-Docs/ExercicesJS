@@ -1,8 +1,11 @@
+//Creation des variables auquel on fait appel dans le cours
 var tableauFruits = ["bananes","fraises","pêches"];
 var nombre = 10;
 var phrase = 'Hello World';
 var chiens = ['Carlin','Labrador','Beagle'];
 function affichage(){ console.log("Hello World")};
+
+//Contenus du cours sous forme objet Javascript
 var sommaire = {
   "debuter" : "Bienvenus dans la console.\nVous vous apprêtez à en apprendre un peu plus sur son utilisation.\nPour commencer à nous familiariser à elle, abordont tout de suite les variables.\n\nUne variable nous permet de stocker de l'information, sous les formes suivantes : Array(Tableau), Objet, string(texte), etc...\n\nVous pouvez à tout moment reprendre ce que vous avez tapé avec la fèche du haut de votre clavier.\nPour aller à la ligne dans la console 'Maj + Entrée'\nPour afficher un element : console.log('votre element')\n\nJuste en dessous, tapez : sommaire.variables",
 

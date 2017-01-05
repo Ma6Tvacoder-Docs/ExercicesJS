@@ -6,3 +6,5 @@ Si vous debutez, le [01]LaConsole est fait pour vous
 ### Auteurs et Contributeurs
 
 Adrien Centonze --> [adricen](https://github.com/adricen "profile Git")
+Patrick Isola --> [vienendelsur](https://github.com/vienendelsur "profile Git")
+Thimothée Fischer

@@ -9,6 +9,6 @@ Adrien Centonze --> [adricen](https://github.com/adricen "profile Git")
 
 Patrick Isola --> [vienendelsur](https://github.com/vienendelsur "profile Git")
 
-Thimothée Fischer
+Timothée Fischer
 
 Myhed Benrouma --> [Myhed](https://github.com/Myhed "profile Git")

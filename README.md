@@ -5,12 +5,4 @@ Si vous debutez, le [01]LaConsole est fait pour vous
 
 ### Auteurs et Contributeurs
 
-Adrien Centonze --> [adricen](https://github.com/adricen "profile Git")
-
-Patrick Isola --> [vienendelsur](https://github.com/vienendelsur "profile Git")
-
-Julie Taris --> [julieTa93] (https://github.com/JulieTa93 "profile Git")
-
-Timothée Fischer
-
-Myhed Benrouma --> [Myhed](https://github.com/Myhed "profile Git")
+[@adricen](https://github.com/adricen "profile Git") / [@vienendelsur](https://github.com/vienendelsur "profile Git") / [@julieTa93] (https://github.com/JulieTa93 "profile Git") / Timothée Fischer / [@Myhed](https://github.com/Myhed "profile Git")

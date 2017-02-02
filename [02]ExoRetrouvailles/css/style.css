@@ -41,7 +41,7 @@ button{
   text-transform: uppercase;
 }
 .center{
-  left: 10vw;
+  left: 14vw;
   position: absolute;
   top: 102px;
   color: white;
@@ -50,7 +50,7 @@ button{
   padding: 0 7px 7px 0;
 }
 #character_01 .center {
-    margin-left: 14vw;
+    margin-left: 17vw;
     left: 0;
     max-width: 184px;
 }

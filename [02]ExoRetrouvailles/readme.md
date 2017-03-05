@@ -6,9 +6,71 @@
 
 Les informations constituant la page se trouvent dans le fichier `js/data.js` sous forme d'un objet *Javascript*.
 
+```javascript
+
+var data = {
+  'perso_0' : {
+    'name' : 'Chouwi',
+    'picture' : 'img/chouwi.jpg',
+    'texte' : ['Brouuuuwhaaaaa','Drrrriiiitch','Hinnn Wouaaa']
+  },
+  'perso_1' : {
+    'name' : 'Archibalde',
+    'picture' : 'img/archi.jpg',
+    'texte' : ['Grand père, c\'est moi!','J\'aime les pâttes moi aussi','Pff nimporte quoi!']
+  }
+}
+
+
+```
+
+Vous pouvez rajouter des textes ou changer les images. Il est tout à fait possible de changer la structure de l'objet pour ajouter plusieurs image :
+```javascript
+
+var data = {
+  'perso_0' : {
+    'name' : 'Chouwi',
+    'picture' : ['img/chouwi.jpg','img/chouwi-anim.gif'],
+    'texte' : ['Brouuuuwhaaaaa','Drrrriiiitch','Hinnn Wouaaa']
+  },
+  'perso_1' : {
+    'name' : 'Archibalde',
+    'picture' : 'img/archi.jpg',
+    'texte' : ['Grand père, c\'est moi!','J\'aime les pâttes moi aussi','Pff nimporte quoi!']
+  }
+}
+
+
+```
+
+
+
 L'execution et l'affichage de la page se fait dans le fichier `js/script.js` et ajoute chaque elements à la page de manière dynamique.
 
-Le style de la page se fait dans le fichier `css/style.css`.
+
+Vous pourrez prendre l'image en compte à un moment dans cette fonctiono :
+
+```javascript
+
+function dialogue(){
+
+  // Le modulo par deux --> la valeur est pair ou impair 0 || 1
+  if ( index%2 == 0 ) {
+    var contexte = document.getElementById('character_02');
+    var paroles = data.perso_1.texte;
+  }else{
+    var contexte = document.getElementById('character_01');
+    var paroles = data.perso_0.texte;
+  }
+  var dom = contexte.getElementsByClassName('center'); //--> Renvoie un tableau
+  dom[0].innerHTML = paroles[ index%3 ];
+  index++;
+}
+
+```
+
+
+Le style de la page se fait dans le fichier `css/style.css`. Libre à vous de la modifier au besoin.
 
 Vous pouvez rajouter des information dans les tableaux et modifier leurs contenus.
 
@@ -34,3 +96,7 @@ En **changeant** les informations vous devez pouvoir modifier la page à volont�
 ### **Ajouter des elements !!**
 
 Vous pouvez retoucher le css et ajouter des elements dans la page html de maniére classique. à vous de voir de quel façon et dans quel bloque.
+On peux égallement ajouter des **gif animés**, alors faitent en bon usage :wink:
+
+[![booyah](http://saiyansworld1.free.fr/images/gifs/64.gif)](http://saiyansworld1.free.fr/images/gifs/64.gif)
+[![boom](https://media.giphy.com/media/l0MYEqEzwMWFCg8rm/giphy.gif)](https://media.giphy.com/media/l0MYEqEzwMWFCg8rm/giphy.gif)

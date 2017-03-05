@@ -1,4 +1,4 @@
-		
+
 var regle = {
 
 	ca : [], // contient toutes nos cartes du jeu
@@ -6,7 +6,7 @@ var regle = {
 	signe : ['Coeur','Pique','Carreau','Trefle'],
 	type : ['dame','roi','valet','as','8','7']
 }
-	
+
 var carte = function(puissance,type,signe,nbr){
 	/*Initialisation des valeur*/
 
@@ -15,7 +15,7 @@ var carte = function(puissance,type,signe,nbr){
 	var signes = this.signe
 	var nbrs = this.nbr
 
-	
+
 	/*-------------------------*/
 
 	/* création de l'objet qui contiendra toute les caractèristique de la carte*/
@@ -27,7 +27,7 @@ var carte = function(puissance,type,signe,nbr){
 
 	}
 	/*--------------------------------------------------------------------------*/
-	
+
 	/*Récupération de la table de jeu*/
 	var table = document.getElementById('table');
 	/*--------------------------------*/
@@ -44,6 +44,6 @@ var carte = function(puissance,type,signe,nbr){
 		table.appendChild(createCarte);
 		/*------------------------------------------------------*/
 
-			
+
 
 }

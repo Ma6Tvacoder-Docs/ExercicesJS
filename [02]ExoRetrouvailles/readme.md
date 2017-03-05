@@ -98,5 +98,5 @@ En **changeant** les informations vous devez pouvoir modifier la page à volont�
 Vous pouvez retoucher le css et ajouter des elements dans la page html de maniére classique. à vous de voir de quel façon et dans quel bloque.
 On peux égallement ajouter des **gif animés**, alors faitent en bon usage :wink:
 
-[![booyah](http://saiyansworld1.free.fr/images/gifs/64.gif)](http://saiyansworld1.free.fr/images/gifs/64.gif)
+[![booyah](http://saiyansworld1.free.fr/images/gifs/64.gif)](https://www.google.fr/search?q=gif+dbz+alpha&espv=2&biw=2133&bih=1055&tbm=isch&tbo=u&source=univ&sa=X&ved=0ahUKEwiT_dWBjcDSAhULtBQKHWubB2wQsAQIHA#imgrc=AU-jsTjTECOLDM:)
 [![boom](https://media.giphy.com/media/l0MYEqEzwMWFCg8rm/giphy.gif)](https://media.giphy.com/media/l0MYEqEzwMWFCg8rm/giphy.gif)

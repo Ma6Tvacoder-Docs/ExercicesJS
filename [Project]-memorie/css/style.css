@@ -15,7 +15,7 @@
 	box-shadow: 1px 3px 3px 1px black;
 }
 
-.Carte{
+.carte{
 	display: inline-block;
 	margin-right:29px;
 	margin-bottom: 15px;
@@ -23,6 +23,5 @@
 	width:180px;
 	transition: all ease-in 0.5s;
 	 -webkit-transform: rotateZ(360deg); /* Safari */
-     transform: perspective( 4000px ); 
+     transform: perspective( 4000px );
 }
-

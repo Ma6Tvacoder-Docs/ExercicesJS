@@ -1,0 +1,86 @@
+body{
+  background-image: url('../img/background.png');
+  animation-name: backMove;
+  animation-duration: 2.5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  /*background-position: bottom left;*/
+}
+@keyframes backMove {
+  0%{
+    background-position-x : 0;
+  }
+  100%{
+    background-position-x : -100vw;
+  }
+}
+#megaman{
+  position: absolute;
+  bottom: 78px;
+}
+#megaman div{
+  background-position: bottom;
+  background-repeat: no-repeat;
+  height: 500px;
+  width: 500px;
+}
+.run{
+  background-image: url('../img/mega-Run_00.png');
+  background-size: auto 250px;
+  animation-name: run;
+  animation-duration: 0.3s;
+  animation-timing-function: step-end;
+  animation-iteration-count: infinite;
+}
+
+.jump{
+  background-image: url('../img/mega-Run_00.png');
+  background-size: auto 300px;
+  animation-name: jump;
+  animation-duration: 0.3s;
+  animation-iteration-count: infinite;
+
+  position: relative;
+  bottom:0;
+
+}
+
+@keyframes run{
+  0%{
+    background-image: url('../img/mega-Run_03.png');
+  }
+  20%{
+    background-image: url('../img/mega-Run_02.png');
+  }
+  45%{
+    background-image: url('../img/mega-Run_01.png');
+  }
+  85%{
+    background-image: url('../img/mega-Run_00.png');
+  }
+}
+@keyframes jump{
+  0%{
+    background-image: url('../img/mega-Jump_03.png');
+    bottom:0;
+  }
+  20%{
+    background-image: url('../img/mega-Jump_02.png');
+  }
+  30%{
+    bottom:180px;
+  }
+  45%{
+    background-image: url('../img/mega-Jump_01.png');
+    bottom:200px;
+  }
+  75%{
+    bottom:180px;
+  }
+  85%{
+    background-image: url('../img/mega-Jump_00.png');
+  }
+  100%{
+    bottom:0;
+  }
+}

@@ -1,0 +1,67 @@
+/*----------------
+      FONT
+----------------*/
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+/* Appeler la font --> font-family: 'Source Code Pro', monospace; */
+
+body{
+  background-image: url('http://more-sky.com/data/out/6/IMG_95596.png');
+  font-family: 'Source Code Pro', monospace;
+
+  }
+  h3{
+    text-align: center;
+    text-transform: uppercase;
+    color:white;
+    font-size: 20px;
+  }
+
+  img{
+    height: 100%;
+    width: auto;
+    display: block;
+    margin: auto;
+  }
+  button{
+    margin: auto;
+    display: block;
+    font-size: 40px;
+    text-transform: uppercase;
+    position: relative;
+    top: 40px;
+  }
+
+.profil{
+  position: relative;
+}
+
+.center{
+  left: 14vw;
+  position: absolute;
+  top: 102px;
+  color: white;
+  font-weight: bold;
+  padding: 0 88px 7px 0;
+}
+
+#character_01{
+  float: left;
+  width: 49%;
+  display: inline-block;
+  height: 500px;
+  overflow: hidden;
+  }
+  #character_01 .center {
+    margin-left: 17vw;
+    left: 0;
+    max-width: 184px;
+  }
+
+
+#character_02{
+  float: right;
+  width: 49%;
+  display: inline-block;
+  height: 500px;
+  overflow: hidden;
+}

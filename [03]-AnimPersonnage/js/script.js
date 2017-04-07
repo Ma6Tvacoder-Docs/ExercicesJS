@@ -5,6 +5,7 @@ var megaman = document.getElementById('megaman').getElementsByTagName('div')[0]
 
 //On definis notre fonction Jump
 function jump(){
+  
   megaman.className = "jump";
 
   setTimeout( function(){

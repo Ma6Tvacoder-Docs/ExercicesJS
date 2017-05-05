@@ -1,0 +1,129 @@
+body{
+  height: 96vh;
+  width: 99%;
+  /*Positionnement et animation de l'image background*/
+  background-image: url('../img/background.png');
+  animation-name: backMove;
+  animation-duration: 2.5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  position: relative;
+}
+
+@keyframes backMove {
+  0%{
+    background-position-x : 0;
+  }
+  100%{
+    background-position-x : -100vw;
+  }
+}
+audio{
+  padding:150px;
+}
+/* On positionne le megaman dans la page */
+#megaman{
+  position: absolute;
+  bottom: 35px;
+  /*left:250px;*/
+  animation-name: move;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+/*Petite anime pour faire bouger le perso d'avant en arriere
+et gagner en dynamisme*/
+@keyframes move{
+  0%{
+    left:250px;
+  }
+  50%{
+    left:750px;
+  }
+  100%{
+    left:250px;
+  }
+}
+
+/* Positionnement des images du megaman dans la DIV */
+#megaman div{
+  background-position: bottom;
+  background-repeat: no-repeat;
+  height: 500px;
+  width: 500px;
+}
+.run{
+  /*Initialement presente, j'ai retiré la premiere image car
+  elle perturbait l'animation et provoquait une petite saute
+  en debut d'anim*/
+  /*background-image: url('../img/mega-Run_00.png');*/
+  background-size: auto 250px;
+  animation-name: run;
+  animation-duration: 0.6s;
+  animation-timing-function: step-end;
+  animation-iteration-count: infinite;
+}
+
+.jump{
+  /*background-image: url('../img/mega-Run_00.png');*/
+  background-size: auto 300px;
+  animation-name: jump;
+  animation-duration: 0.3s;
+  /*cette option permet de dire que les images
+  sont affiché jusqu'a la suivante, sans transition,
+  plus interressants pour ce type d'animes*/
+  animation-timing-function: step-end;
+  animation-iteration-count: infinite;
+  position: relative;
+  bottom:0;
+
+}
+/* L'animation run posede 4 image clef.
+C'est une alternance entre les jambes
+ramené vers le corps et les jambes tendus.
+Il y a volontairement un écart entre la
+deuxieme et troisieme image et la derniere
+et la premiere afin de changer le rythme */
+
+@keyframes run{
+  0%{
+    background-image: url('../img/mega-Run_02.png');
+  }
+  25%{
+    background-image: url('../img/mega-Run_00.png');
+  }
+  50%{
+    background-image: url('../img/mega-Run_01.png');
+  }
+  75%{
+    background-image: url('../img/mega-Run_03.png');
+  }
+}
+/* Dans l'anime de Jump on modifie la position de la div elle même,
+indépendemment du defilement des images. On obtient ainsi un effet
+de suspention interressant */
+@keyframes jump{
+  0%{
+    background-image: url('../img/mega-Jump_03.png');
+    bottom:0;
+  }
+  20%{
+    background-image: url('../img/mega-Jump_02.png');
+  }
+  30%{
+    bottom:180px;
+  }
+  45%{
+    background-image: url('../img/mega-Jump_01.png');
+    bottom:200px;
+  }
+  75%{
+    bottom:180px;
+  }
+  85%{
+    background-image: url('../img/mega-Jump_00.png');
+  }
+  100%{
+    bottom:0;
+  }
+}
